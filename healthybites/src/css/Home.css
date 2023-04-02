@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px){
+    .updates{
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .updates{
+        width: 40%;
+    }
+}
+
+.updates .card-title:hover{
+    text-decoration: underline;
+}
+
+.updates:hover{
+    cursor: grab;
+}
+
+.container-fluid{
+    overflow-x: hidden;
+}

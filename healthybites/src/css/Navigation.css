@@ -1,0 +1,31 @@
+
+  .hover-purple{
+    color:white;
+}
+
+.hover-purple:hover{
+    text-decoration: underline;
+    color: white!important;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#toggler:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-open {
+      background-color: black;
+    }
+  }
+
+.nav-link:visited {
+    color: white;
+}
